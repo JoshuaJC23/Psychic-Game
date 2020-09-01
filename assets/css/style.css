@@ -14,5 +14,19 @@
     background-image: repeating-radial-gradient(red, yellow 10%, green 15%);
 }
 
+body {
+    background-color: gray;
+}
 
+.wrapper {
+    display: grid;
+    justify-content: center;
+    background-color: white;
+}
 
+.info {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 20px;
+}
