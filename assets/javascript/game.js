@@ -31,7 +31,7 @@
                 if (guessesSoFar.indexOf(userGuess)>-1){
                     return;
                 }
-            guessesSoFar += userGuess;
+            guessesSoFar += " " + userGuess;
 
             console.log(getRandomLetter);
             if (userGuess === computerGuess){
