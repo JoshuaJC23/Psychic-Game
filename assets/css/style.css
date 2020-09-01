@@ -10,4 +10,9 @@
     justify-content: center;
     font-size: 30px;
     font-family: 'Cinzel', serif;
+    font-weight: bolder;
+    background-image: repeating-radial-gradient(red, yellow 10%, green 15%);
 }
+
+
+
