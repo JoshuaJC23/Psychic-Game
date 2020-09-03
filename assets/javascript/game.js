@@ -39,6 +39,7 @@
                 getRandomLetter();
                 guessesLeft = 10;
                 guessesSoFar = "";
+                alert("Your psychic abilities are out of this world!");
             }
             else{
                 guessesLeft--;
@@ -49,6 +50,7 @@
                 losses++;
                 guessesLeft = 10;
                 guessesSoFar = "";
+                alert("Your psychic skills needs more improvement.");
             }
             //output to screen
             winnerPoints.textContent = wins;

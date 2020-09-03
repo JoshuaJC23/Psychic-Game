@@ -4,11 +4,10 @@
 
 #header {
     display: flex;
-    background-color: cornflowerblue;
     height: 10vh;
     align-items: center;
     justify-content: center;
-    font-size: 30px;
+    font-size: 50px;
     font-family: 'Cinzel', serif;
     font-weight: bolder;
     background-image: repeating-radial-gradient(red, yellow 10%, green 15%);
@@ -21,7 +20,9 @@ body {
 .wrapper {
     display: grid;
     justify-content: center;
-    background-color: white;
+    width: 25%;
+    margin-left: 575px;
+    position: relative;
 }
 
 .info {
@@ -29,4 +30,19 @@ body {
     justify-content: center;
     align-items: center;
     margin: 20px;
+    font-size: 23px;
+}
+
+#p1, #p2, #p3, #p4 {
+    margin-top: 10px;
+}
+
+#p4 {
+    margin-bottom: 10px;
+}
+
+#ptags {
+    position: absolute;
+    left: 130px;
+    top: 100px;
 }
