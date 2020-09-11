@@ -27,7 +27,7 @@
 
         document.onkeyup = function(event) {
 
-            var userGuess = event.key;
+            var userGuess = String.fromCharCode(event.keyCode).toLowerCase();
                 if (guessesSoFar.indexOf(userGuess)>-1){
                     return;
                 }
